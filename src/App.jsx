@@ -14,7 +14,6 @@ const App = () => {
   <BrowserRouter>
     <Box sx={{ backgroundColor: "#a13434" }}>
       <Navbar />
-      <div>one</div>
       <Routes>
         <Route path="/" exact element={<Feed />} />
         <Route path="/video/:id" element={<VideoDetails />} />
